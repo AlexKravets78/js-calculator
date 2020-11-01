@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="panel">
+<h1>Калькулятор</h1>
+<div id="out-div">
+<p>= <span id="out"></span></p>
+</div>
+<div class="row">
+<input type="text" id="n1" class="field" placeholder="Поле 1">
+<input type="text" id="n2" class="field" placeholder="Поле 2">
+</div>
+<br><br>
+<div class='row'>
+<button onclick="numbre(0)" class="btn_num">0</button>
+<button onclick="numbre(1)" class="btn_num">1</button>
+<button onclick="numbre(2)" class="btn_num">2</button>
+</div> 
+<div class='row'>
+<button onclick="numbre(3)" class="btn_num">3</button>
+<button onclick="numbre(4)" class="btn_num">4</button>
+<button onclick="numbre(5)" class="btn_num">5</button>
+</div>
+<div class='row'>
+<button onclick="numbre(6)" class="btn_num">6</button>
+<button onclick="numbre(7)" class="btn_num">7</button>
+<button onclick="numbre(8)" class="btn_num">8</button>
+</div>
+<div class="row">
+<button onclick="numbre(9)" class="btn_num">9</button>
+</div>
+<br>
+<div class="row">
+<button onclick="c()" class="btn_num">C</button>
+<button onclick="plus()" class="btn_num">+</button>
+<button onclick="minus()" class="btn_num">-</button>
+<button onclick="multiplication()" class="btn_num">X</button>
+<button onclick="division()" class="btn_num">/</button>
+<br><br>
+<button onclick="chan()" id="change">Змінити поле</button>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
